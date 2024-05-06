@@ -2,3 +2,55 @@
 *{
     font-family: "Work Sans", sans-serif;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h3{
+    font-size: 2rem;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: brown;
+}
+
+.banner-main{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.banner-title{
+    font-size: 2rem;
+    color: #131313;
+}
+.banner-body{
+    font-size: .9rem;
+    color: #727272;
+
+}
+.banner-btn{
+    background: #FF900E;
+    color: aliceblue;
+    padding: 1rem 3rem;
+    border-radius: .2rem;
+    border: 0;
+    margin-bottom: 3rem;
+}
+.banner-image{
+    max-width: 1440px;
+}
+.banner-image img{
+    width: 100%;
+}

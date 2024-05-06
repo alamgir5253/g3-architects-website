@@ -24,6 +24,10 @@ nav ul li a{
     text-decoration: none;
     color: brown;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .banner-main{
     max-width: 800px;
@@ -40,7 +44,7 @@ nav ul li a{
     color: #727272;
 
 }
-.banner-btn{
+.primary-btn{
     background: #FF900E;
     color: aliceblue;
     padding: 1rem 3rem;
@@ -53,4 +57,25 @@ nav ul li a{
 }
 .banner-image img{
     width: 100%;
+}
+/* team section style start here */
+.team-container{
+display: flex;
+align-items: center;
+gap: 0 2rem;
+margin-top: 2rem;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.team-detail h4{
+font-size: 2rem;
+color: #131313;
+margin-bottom: 0;
+}
+.team-detail p{
+    font-size: .9rem;
+    color: #727272;
 }
